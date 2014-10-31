@@ -20,6 +20,16 @@
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="../lib/css/zenburn.css">
 
+		<style type="text/css">
+			.dropshadow h1, .dropshadow h2, .dropshadow h3, .dropshadow {
+				text-shadow: 0 0 10px #000;
+			}
+
+			.active {
+				color: yellow;
+			}
+		</style>
+
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
@@ -66,7 +76,46 @@
 				<section>
 					<h1>Play with it!</h1>
 					<h2>It's fun when <em>you</em> are in control!</h2>
+					<hr>
 					<p>(Plus you'll call me with more interesting  questions…)</p>
+				</section>
+
+				<section data-transition="fade">
+					<h1>Today's topics</h1>
+					<h3>Now to tell you what I'm going to tell you.</h3>
+					<hr>
+					<p>
+						<ol>
+							<li class="fragment">
+								What are computers?
+							</li>
+							<li class="fragment">
+								How do they work?
+							</li>
+							<li class="fragment">
+								What would <em>you</em> do with them?
+							</li>
+						</ol>
+					</p>
+				</section>
+
+				<section data-transition="none">
+					<h1>Today's topics</h1>
+					<h3>Now to tell you what I'm going to tell you.</h3>
+					<hr>
+					<p>
+						<ol>
+							<li class="active">
+								What are computers?
+							</li>
+							<li>
+								How do they work?
+							</li>
+							<li>
+								What would <em>you</em> do with them?
+							</li>
+						</ol>
+					</p>
 				</section>
 
 			</div>
@@ -87,7 +136,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
