@@ -28,6 +28,17 @@
 			.active {
 				color: yellow;
 			}
+
+	        p.reference {
+	            font-size: 70%;
+	            position: relative;
+
+	            bottom: -10em;
+	        }
+
+	        section > ul {
+	            margin-bottom: 1em !important;
+	        }
 		</style>
 
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -148,7 +159,9 @@
 
 				<section>
 					<h1>What are computers?</h1>
-					<h2>It's all about the war!</h2>
+					<h2>It's all about the war!*</h2>
+
+					<p class="reference">* Check out <a href="http://www.amazon.com/Cryptonomicon-Neal-Stephenson/dp/0060512806">Cryptonomicon</a> by Neal Stephenson</p>
 				</section>
 
 				<section data-transition="fade" class="lightbackground" data-background="img/bletchley-park.jpg">
@@ -181,7 +194,17 @@
 
 				<section data-transition="fade" class="lightbackground" data-background="img/turing.jpg">
 					<h1>Murdered</h1>
-					<h2>Because he was gay</h2>
+					<h2>Because he was <span class="active">gay</span></h2>
+				</section>
+
+				<section data-transition="fade" class="lightbackground" data-background="img/turing.jpg">
+					<h1>Invented</h1>
+					<h2>The electronic <span class="active">computer</span></h2>
+				</section>
+
+				<section data-transition="fade" class="lightbackground" data-background="img/turing.jpg">
+					<h1>Invented</h1>
+					<h2>The universal <span class="active">Turing machine</span></h2>
 				</section>
 
 			</div>
