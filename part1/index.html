@@ -624,12 +624,12 @@ print(calculate_age(1985, 2014))
 					<h1>Libraries</h1>
 					<h2>Example</h2>
 					<pre><code class="python" data-trim>
-# From datetime.datetime import the now() function
-from datetime.datetime import now
+# From datetime import datetime object which has the now() function
+from datetime import datetime
 
 # now() returns a 'datetime' object
 # Using &lt;object&gt;.&lt;property&gt; we can grab a property of object
-current_year = now().year
+current_year = datetime.now().year
 
 # Calculate age and display result
 print(current_year - birth_year)
@@ -638,6 +638,25 @@ print(current_year - birth_year)
 					<h3>Output</h3>
 					<p>Whatever age this dude from '85 is <em>right now</em>.</p>
 
+				</section>
+
+				<section>
+					<h1>Full example</h1>
+					<h3>Ask birthdate, calculate age.</h3>
+					<pre><code class="python" data-trim>
+# From datetime import datetime object which has the now() function
+from datetime import datetime
+
+# Ask user for some text
+birth_year = input('In what year were you born?')
+
+# Turn text into integer (whole) number
+birth_year = int(birth_year)
+current_year = datetime.now().year
+
+# Calculate age and display result
+print('Your age is:', current_year - birth_year)
+					</code></pre>
 				</section>
 
 
