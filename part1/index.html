@@ -533,6 +533,7 @@ Hello World!	        # &lt;- output (result)
 						<li class="fragment grow">Conditionals: do stuff only when conditions are met</li>
 						<li class="fragment grow">Loops: repeatedly doing stuff</li>
 						<li class="fragment grow">Functions: actions referrable by name</li>
+						<li class="fragment grow">Libraries: functions you don't have to write anymore</li>
 					</ul>
 				</section>
 
@@ -611,6 +612,32 @@ print(calculate_age(1985, 2014))
 
 					<h3>Output</h3>
 					<pre><code class="no-highlight">29</code></pre>
+				</section>
+
+				<section>
+					<h1>Libraries</h1>
+					<h2>Collections of functions and objects</h2>
+					<h3>Work you don't have to do: use them!</h3>
+				</section>
+
+				<section>
+					<h1>Libraries</h1>
+					<h2>Example</h2>
+					<pre><code class="python" data-trim>
+# From datetime.datetime import the now() function
+from datetime.datetime import now
+
+# now() returns a 'datetime' object
+# Using &lt;object&gt;.&lt;property&gt; we can grab a property of object
+current_year = now().year
+
+# Calculate age and display result
+print(current_year - birth_year)
+					</code></pre>
+
+					<h3>Output</h3>
+					<p>Whatever age this dude from '85 is <em>right now</em>.</p>
+
 				</section>
 
 
