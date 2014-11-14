@@ -502,10 +502,17 @@ public class HelloWorld {
 
 				<section data-transition="fade">
 					<h1>Python</h1>
+					<h2>Readable code</h2>
+					<h3>Only programming language designed to be readable.</h3>
+				</section>
+
+				<section data-transition="fade">
+					<h1>Python</h1>
 					<h2>Open Source</h2>
 					<h3>Everyone can use, distribute and modify it.</h3>
 				</section>
 
+				<!--
 				<section>
 					<h2>Intermezzo</h2>
 					<h1>Examples</h1>
@@ -516,6 +523,7 @@ Hello World!	        # &lt;- output (result)
 					</code></pre>
 
 				</section>
+				-->
 
 				<section>
 					<h1>Real programming</h1>
@@ -532,11 +540,62 @@ Hello World!	        # &lt;- output (result)
 					<h1>Variables</h1>
 					<h2>Remember stuff for later use</h2>
 					<h3>Example</h3>
-					<pre><code class="python-shell" data-trim>
->>> birth_year = 1985
->>> current_year = 2014
->>> current_year - birth_year
+					<pre><code class="python" data-trim>
+birth_year = 1985
+current_year = 2014
+age = current_year - birth_year
+print age
+					</code></pre>
+					<h3>Output</h3>
+					<pre><code class="no-highlight">29</code></pre>
+				</section>
+
+				<section>
+					<h1>Conditionals</h1>
+					<h2>When condition is met, do stuff</h2>
+					<pre><code class="python" data-trim>
+if age &lt; 30:
+	print('Still young!')
+else:
+	print('You dinosaur!')
+					</code></pre>
+
+					<h3>Output</h3>
+					<p>
+						Age: 29
+						<pre><code class="no-highlight">Still young!</code></pre>
+					</p>
+
+					<p>
+						Age: 30
+						<pre><code class="no-highlight">You dinosaur!</code></pre>
+					</p>
+				</section>
+
+				<section>
+					<h1>Loops</h1>
+					<h2>Do stuff while condition is true</h2>
+					<pre><code class="python" data-trim>
+
+age = 28
+
+while age &lt; 30:
+	print('Go on for another year!')
+	print(age)
+
+	# Increase value in age by 1, store new value as age
+	age = age + 1
+
+print('30? You might as well die!')
+					</code></pre>
+
+					<h3>Output</h3>
+					<pre><code data-trim class="no-highlight">
+Go on for another year!
+28
+Go on for another year!
 29
+30? You might as well die!
 					</code></pre>
 				</section>
 
