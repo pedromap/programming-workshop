@@ -36,6 +36,10 @@
 	            bottom: -5em;
 	        }
 
+	        .reveal section img.noborder {
+	        	border: none;
+	        }
+
 	        section > ul {
 	            margin-bottom: 1em !important;
 	        }
@@ -350,6 +354,99 @@
 						</ol>
 					</p>
 				</section>
+
+				<section>
+					<h1>Hello World</h1>
+					<h2>Program starts up, says: 'Hello World'</h2>
+					<h3>Most common demo app*</h3>
+
+					<p class="reference">*<a href="https://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">List of Hello world program examples</a></p>
+				</section>
+
+				<section>
+					<h2>Example</h2>
+					<img src="img/hello_world.png" class="noborder">
+				</section>
+
+				<section>
+					<h2>Code: Python</h2>
+					<pre><code data-trim class="python">
+#!/usr/bin/python
+
+print('Hello World!')
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Code: PHP</h2>
+					<pre><code data-trim class="php">
+<?php echo 'Hello, world!'; ?>
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Code: C</h2>
+					<pre><code data-trim class="c">
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello World!\n");
+}
+				</code></pre>
+				</section>
+
+				<section>
+					<h2>Code: C++</h2>
+					<pre><code data-trim class="cpp">
+#include &lt;iostream&gt;
+
+int main() {
+	std::cout &lt;&lt; "Hello World!" &lt;&lt; std::endl;
+}
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Code: Java</h2>
+					<pre><code data-trim class="java">
+public class HelloWorld {
+   public static void main(String[] args) {
+       System.out.println("Hello, world!");
+   }
+}
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Code: Brainfuck</h2>
+					<pre><code data-trim class="brainfuck">
++++++ +++++             initialize counter (cell #0) to 10
+[                       use loop to set the next four cells to 70/100/30/10/40
+    &gt; +++++ ++              add  7 to cell #1
+    &gt; +++++ +++++           add 10 to cell #2
+    &gt; +++                   add  3 to cell #3
+    &gt; +                     add  1 to cell #4
+    &gt; ++++                  add 4 to cell #5
+    &lt;&lt;&lt;&lt;&lt; -                  decrement counter (cell #0)
+]
+&gt; ++ .                  print 'H'
+&gt; + .                   print 'e'
++++++ ++ .              print 'l'
+.                       print 'l'
++++ .                   print 'o'
+&gt;&gt;&gt; ++++ .              print ','
+&lt;&lt; ++ .                 print ' '
+
+&lt; +++++ +++ .           print 'w'
+ ----- --- .            print 'o'
++++ .                   print 'r'
+----- - .               print 'l'
+----- --- .             print 'd'
+&gt; + .                   print '!'
+&gt; .
+					</code></pre>
+				</section>
+
 
 				<section>
 					<h1>Thanks!</h1>
