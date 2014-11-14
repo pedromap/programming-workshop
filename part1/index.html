@@ -544,7 +544,7 @@ Hello World!	        # &lt;- output (result)
 birth_year = 1985
 current_year = 2014
 age = current_year - birth_year
-print age
+print(age)
 					</code></pre>
 					<h3>Output</h3>
 					<pre><code class="no-highlight">29</code></pre>
@@ -597,6 +597,20 @@ Go on for another year!
 29
 30? You might as well die!
 					</code></pre>
+				</section>
+
+				<section>
+					<h1>Functions</h1>
+					<h2>Actions with names, arguments and return values</h2>
+					<pre><code class="python" data-trim>
+def calculate_age(birth_year, current_year):
+	return current_year - birth_year
+
+print(calculate_age(1985, 2014))
+					</code></pre>
+
+					<h3>Output</h3>
+					<pre><code class="no-highlight">29</code></pre>
 				</section>
 
 
