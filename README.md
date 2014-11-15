@@ -8,3 +8,17 @@ Parts
 2. Part 1: Programming basics
 3. Part 2: Programming Arduino microcontrollers
 
+Lecture slides
+--------------
+Slides for the lectures are available at:
+* http://tinyurl.com/programming-teaser
+* http://tinyurl.com/programming-part1
+
+Videos
+------
+Video for the first lecture will be available soon!
+
+Code examples
+-------------
+Code examples can be found in:
+https://github.com/dokterbob/programming-workshop/tree/master/examples
