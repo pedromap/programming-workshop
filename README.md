@@ -16,9 +16,8 @@ Slides for the lectures are available at:
 
 Videos
 ------
-Video for the first lecture will be available soon!
+* [Part 1](https://vimeo.com/112069963)
 
 Code examples
 -------------
-Code examples can be found in:
-https://github.com/dokterbob/programming-workshop/tree/master/examples
+Code examples can be found [here](https://github.com/dokterbob/programming-workshop/tree/master/examples).
