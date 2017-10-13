@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+
 # Ask one thing and then another
 
-one_thing = raw_input('One thing: ')
-another = raw_input('Another: ')
+one_thing = input('One thing: ')
+another = input('Another: ')
 
-print one_thing + another
+# + concatenates the two answers
+print(one_thing + another)
