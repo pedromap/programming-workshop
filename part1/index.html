@@ -641,18 +641,22 @@ print(current_year - birth_year)
 					<h1>Full example</h1>
 					<h3>Ask birthdate, calculate age.</h3>
 					<pre><code class="python" data-trim>
-# From datetime import datetime object which has the now() function
-from datetime import datetime
+# Import datetime object to work with dates and times
+import datetime
 
 # Ask user for some text
 birth_year = input('In what year were you born?')
 
 # Turn text into integer (whole) number
 birth_year = int(birth_year)
-current_year = datetime.now().year
+
+# From the datetime module, call the now() function of the datetime object,
+# returning current date and time from the computer's clock
+current_year = datetime.datetime.now().year
 
 # Calculate age and display result
 print('Your age is:', current_year - birth_year)
+
 					</code></pre>
 				</section>
 
