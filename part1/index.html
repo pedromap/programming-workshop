@@ -369,9 +369,9 @@
 				<section>
 					<h2>Code: Python</h2>
 					<pre><code data-trim class="python">
-#!/usr/bin/python
+#!/usr/bin/env python3
 
-print 'Hello World!'
+print('Hello World!')
 					</code></pre>
 				</section>
 
@@ -542,7 +542,7 @@ Hello World!	        # &lt;- output (result)
 birth_year = 1985
 current_year = 2014
 age = current_year - birth_year
-print age
+print(age)
 					</code></pre>
 					<h3>Output</h3>
 					<pre><code class="no-highlight">29</code></pre>
@@ -553,9 +553,9 @@ print age
 					<h2>When condition is met, do stuff</h2>
 					<pre><code class="python" data-trim>
 if age &lt; 30:
-	print 'Still young!'
+	print('Still young!')
 else:
-	print 'You dinosaur!'
+	print('You dinosaur!')
 					</code></pre>
 
 					<h3>Output</h3>
@@ -578,13 +578,13 @@ else:
 age = 28
 
 while age &lt; 30:
-	print 'Go on for another year!'
-	print age
+	print('Go on for another year!')
+	print(age)
 
 	# Increase value in age by 1, store new value as age
 	age = age + 1
 
-print '30? You might as well die!'
+print('30? You might as well die!')
 					</code></pre>
 
 					<h3>Output</h3>
@@ -604,7 +604,7 @@ Go on for another year!
 def calculate_age(birth_year, current_year):
 	return current_year - birth_year
 
-print calculate_age(1985, 2014)
+print(calculate_age(1985, 2014))
 					</code></pre>
 
 					<h3>Output</h3>
@@ -629,7 +629,7 @@ from datetime import datetime
 current_year = datetime.now().year
 
 # Calculate age and display result
-print current_year - birth_year
+print(current_year - birth_year)
 					</code></pre>
 
 					<h3>Output</h3>
@@ -652,7 +652,7 @@ birth_year = int(birth_year)
 current_year = datetime.now().year
 
 # Calculate age and display result
-print 'Your age is:', current_year - birth_year
+print('Your age is:', current_year - birth_year)
 					</code></pre>
 				</section>
 
