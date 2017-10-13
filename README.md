@@ -1,12 +1,14 @@
 Workshop: programming for non-programmers
 =========================================
-Repository with slides and other course material for the workhsop 'Programming for non-programmers', given in November 2014.
+Repository with slides and other course material for the workhsop 'Programming for non-programmers',
+given in November 2014 in hackerspace [TechInc](https://www.techinc.nl) in Amsterdam and in Octobre
+2017 during [Date with Data](http://datewithdata.pt) in Porto.
 
 Parts
 -----------
 1. Teaser: What is programming
 2. Part 1: Programming basics
-3. Part 2: Programming Arduino microcontrollers
+3. Part 2: Programming Arduino microcontrollers (future)
 
 Lecture slides
 --------------
@@ -16,7 +18,7 @@ Slides for the lectures are available at:
 
 Videos
 ------
-* [Part 1](https://vimeo.com/112069963)
+* [Part 1, November 2014](https://vimeo.com/112069963)
 
 Code examples
 -------------
