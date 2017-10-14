@@ -70,6 +70,7 @@ def filter_data(field, answers):
                 valid_answer = True
         elif field == '...':
             # Validate more fields
+            pass
         else:
             print('Invalid answer! Try again')
 
